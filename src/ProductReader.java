@@ -25,15 +25,20 @@ public class ProductReader {
                         new BufferedInputStream(Files.newInputStream(file, CREATE));
                 BufferedReader reader =
                         new BufferedReader(new InputStreamReader(in));
-                String str = String.format("%-3sID#", ID);
-                String str1 = String.format("%-6sName",name);
-                String str2 = String.format("%-8sDesc.", desc);
-                String str3 = String.format("%-11sCost", cost);
+                String str = String.format("%-1sID#", ID);
+                String str1 = String.format("%-7sName",name);
+                String str2 = String.format("%-13sDesc.", desc);
+                String str3 = String.format("%-23sCost", cost);
                 System.out.println(str + str1 + str2 + str3);
-                System.out.println("===================================================");
+                System.out.println("===============================================================");
                 while(reader.ready()){
                     rec = reader.readLine();
-                    System.out.println("   " + rec);
+                    String[] data = rec.split(",");
+                    String IDnum = String.format("%-9s", data[0]);
+                    String nameData = String.format("%-16s", data[1]);
+                    String descData = String.format("%-29s", data[2]);
+                    String costData = String.format("%s", data[3]);
+                    System.out.printf(IDnum + nameData + descData + "$" + costData + "\n");
                 }
                 reader.close();
                 System.out.println("\n\nData File read!");
