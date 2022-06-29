@@ -7,14 +7,14 @@
 
 <h1>Execution</h1>
 
-<p align="left">
-<img width="487" alt="Screen Shot 2022-06-29 at 4 09 02 PM" src="https://user-images.githubusercontent.com/94927484/176536242-aec5ba3e-8dee-4aef-9f7e-1c79816d3720.png">
+<h3>Enter 'product' information</h3>
+<img width="500" alt="Screen Shot 2022-06-29 at 4 09 02 PM" src="https://user-images.githubusercontent.com/94927484/176536242-aec5ba3e-8dee-4aef-9f7e-1c79816d3720.png">
 
-<img width="550" alt="Screen Shot 2022-06-29 at 4 09 52 PM" src="https://user-images.githubusercontent.com/94927484/176536251-326a7121-c319-4f09-9aa9-a0a74e7b4070.png">
-<img width="529" alt="Screen Shot 2022-06-29 at 4 10 04 PM" src="https://user-images.githubusercontent.com/94927484/176536272-d36d351a-f7a3-4148-aab7-07ac1c2ac3b7.png">
+<h3>Open '.txt' file the generator wrote to</h3>
+<img width="300" alt="Screen Shot 2022-06-29 at 4 09 52 PM" src="https://user-images.githubusercontent.com/94927484/176536251-326a7121-c319-4f09-9aa9-a0a74e7b4070.png">
 
-
-</p>
+<h3>Results</h3>
+<img width="500" alt="Screen Shot 2022-06-29 at 4 10 04 PM" src="https://user-images.githubusercontent.com/94927484/176536272-d36d351a-f7a3-4148-aab7-07ac1c2ac3b7.png">
 
 <h1>Built With</h1>
 <li>Java</li>
